@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XngSsOMTDFcQsfenv1Ne5K9LOjnJum83Z79Ij5nRXNtRMMY0Af1CxlZkyv4lylhYl/TAup8979BrFn3oqW2Vgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vlado\\Desktop\\PrinterApp DEMO\\PrinterAgentLibrary\\PrinterAgentLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vlado\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Vlado\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Vlado\\.nuget\\packages\\snmpsharpnet-core\\1.0.0\\snmpsharpnet-core.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

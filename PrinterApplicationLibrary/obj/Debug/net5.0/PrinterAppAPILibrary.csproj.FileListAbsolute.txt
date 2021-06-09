@@ -1,0 +1,15 @@
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\bin\Debug\net5.0\PrinterAppAPILibrary.deps.json
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\bin\Debug\net5.0\PrinterAppAPILibrary.dll
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\bin\Debug\net5.0\ref\PrinterAppAPILibrary.dll
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\bin\Debug\net5.0\PrinterAppAPILibrary.pdb
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\bin\Debug\net5.0\PrinterAgentLibrary.dll
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\bin\Debug\net5.0\PrinterAgentLibrary.pdb
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\obj\Debug\net5.0\PrinterAppAPILibrary.csprojAssemblyReference.cache
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\obj\Debug\net5.0\PrinterAppAPILibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\obj\Debug\net5.0\PrinterAppAPILibrary.AssemblyInfoInputs.cache
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\obj\Debug\net5.0\PrinterAppAPILibrary.AssemblyInfo.cs
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\obj\Debug\net5.0\PrinterAppAPILibrary.csproj.CoreCompileInputs.cache
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\obj\Debug\net5.0\PrinterAppAPILibrary.csproj.CopyComplete
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\obj\Debug\net5.0\PrinterAppAPILibrary.dll
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\obj\Debug\net5.0\ref\PrinterAppAPILibrary.dll
+C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterApplicationLibrary\obj\Debug\net5.0\PrinterAppAPILibrary.pdb
