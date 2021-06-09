@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -18,6 +19,8 @@ namespace PrinterAppDemoWeb.Pages
     {
         private readonly ILogger<AddNewPrinterModel> _logger;
         private readonly IQueueServiceSender _queue;
+
+
 
         // Values from the form 'AddNewPrinter' page will be stored in this object and sent to the API 
         public PrinterBasicModel Printer { get; set; } = new PrinterBasicModel();
@@ -49,7 +52,10 @@ namespace PrinterAppDemoWeb.Pages
 
         public async Task<IActionResult> OnPost()
         {
-            if (ModelState.IsValid)
+            // check if IP address is valid.
+            bool isValidIp = IsValidIP(IpAddress);
+
+            if (ModelState.IsValid && isValidIp == true)
             {
                 Printer.IpAddress = IpAddress;
                 Printer.Description = Description;
@@ -62,6 +68,7 @@ namespace PrinterAppDemoWeb.Pages
             }
             else
             {
+                ModelState.Clear();
                 return Page();
             }
         }
@@ -69,7 +76,40 @@ namespace PrinterAppDemoWeb.Pages
         private async Task PublishMessage()
         {
             await _queue.SendMessageAsync(Printer, queueName);
-            Printer = new PrinterBasicModel();
+        }
+
+        // Validation method
+        private bool IsValidIP(string ipAddress)
+        {
+            //Match pattern for IP address 
+            string pattern = @"^([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])(\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])){3}$";
+            bool output = false;
+
+            //Regular Expression object    
+            Regex check = new Regex(pattern);
+
+            //check to make sure an ip address was provided    
+            if (string.IsNullOrEmpty(ipAddress))
+            {
+                //returns false if IP is not provided
+                output = false;
+            }
+            else
+            {
+                //Matching the pattern    
+                output = check.IsMatch(ipAddress, 0);
+            }
+
+            return output;
+        }
+
+
+        // Reset entered values
+        private void ResetInputValues()
+        {
+            IpAddress = "";
+            Location = "";
+            Description = "";
         }
     }
 }
