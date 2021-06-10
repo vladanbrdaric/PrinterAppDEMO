@@ -7,3 +7,12 @@ C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterAppDemoWebLibrary\obj\Debug\netcor
 C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterAppDemoWebLibrary\obj\Debug\netcoreapp3.1\PrinterAppWebLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterAppDemoWebLibrary\obj\Debug\netcoreapp3.1\PrinterAppWebLibrary.dll
 C:\Users\Vlado\Desktop\PrinterApp DEMO\PrinterAppDemoWebLibrary\obj\Debug\netcoreapp3.1\PrinterAppWebLibrary.pdb
+C:\Users\Vlado\Desktop\App DEMO from GIThub\PrinterAppDEMO\PrinterAppDemoWebLibrary\bin\Debug\netcoreapp3.1\PrinterAppWebLibrary.deps.json
+C:\Users\Vlado\Desktop\App DEMO from GIThub\PrinterAppDEMO\PrinterAppDemoWebLibrary\bin\Debug\netcoreapp3.1\PrinterAppWebLibrary.dll
+C:\Users\Vlado\Desktop\App DEMO from GIThub\PrinterAppDEMO\PrinterAppDemoWebLibrary\bin\Debug\netcoreapp3.1\PrinterAppWebLibrary.pdb
+C:\Users\Vlado\Desktop\App DEMO from GIThub\PrinterAppDEMO\PrinterAppDemoWebLibrary\obj\Debug\netcoreapp3.1\PrinterAppWebLibrary.csprojAssemblyReference.cache
+C:\Users\Vlado\Desktop\App DEMO from GIThub\PrinterAppDEMO\PrinterAppDemoWebLibrary\obj\Debug\netcoreapp3.1\PrinterAppWebLibrary.AssemblyInfoInputs.cache
+C:\Users\Vlado\Desktop\App DEMO from GIThub\PrinterAppDEMO\PrinterAppDemoWebLibrary\obj\Debug\netcoreapp3.1\PrinterAppWebLibrary.AssemblyInfo.cs
+C:\Users\Vlado\Desktop\App DEMO from GIThub\PrinterAppDEMO\PrinterAppDemoWebLibrary\obj\Debug\netcoreapp3.1\PrinterAppWebLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Vlado\Desktop\App DEMO from GIThub\PrinterAppDEMO\PrinterAppDemoWebLibrary\obj\Debug\netcoreapp3.1\PrinterAppWebLibrary.dll
+C:\Users\Vlado\Desktop\App DEMO from GIThub\PrinterAppDEMO\PrinterAppDemoWebLibrary\obj\Debug\netcoreapp3.1\PrinterAppWebLibrary.pdb
